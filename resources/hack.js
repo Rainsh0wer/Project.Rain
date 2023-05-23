@@ -12,7 +12,7 @@ function SimpleLiveworksheetHack(jsonlang) {
     const CheckAnswers = function(arr, delay) {
         if (incr < arr.length) {
             setTimeout( () => {
-            if(arr[incr][0].includes('chọn:')) {
+            if(arr[incr][0].includes('select:')) {
                 element = document.querySelectorAll('[id^="selectablediv"]')[select];
                 arr[incr][0].includes('yes')?element.click():{};
                 select++; console.log("%c"+incr+"."+json.success+" => "+arr[incr][0], 'background: #ffffff; color: white; font-size: 12px') 
