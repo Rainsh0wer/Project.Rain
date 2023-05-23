@@ -15,7 +15,7 @@
 **Copy dòng sau và Paste vào bảng điều khiển**
 
 ```javascript
-fetch("https://raw.githubusercontent.com/Rainsh0wer/Project.Rain/main/hack-liveworksheet/resources/hack.js")
+fetch("https://raw.githubusercontent.com/Rainsh0wer/Project.Rain/main/resources/hack.js")
 .then(a=>a.text().then(b=>eval(b)))
 ```
 
