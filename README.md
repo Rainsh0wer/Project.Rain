@@ -12,7 +12,6 @@
      
 *<p align="right"> [Hack YourHomeWork](https://github.com/Rainsh0wer/Project.Storm)*
 
-**Sử dụng F12** hoặc **Ctrl+Shift+J** để mở phần bảng điều khiển.
 ----
 
 ### 🎓 Hướng dẫn
