@@ -1,4 +1,4 @@
-# Dành riêng cho ngôn ngữ Tiếng Việt
+# Ngôn Ngữ Tiếng Việt - Minh Nhật
 
 <p align="center">
      <img width="216" height="135" src="resources/liveworksheets.png"/>
