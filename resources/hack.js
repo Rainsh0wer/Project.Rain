@@ -2,7 +2,7 @@ function SimpleLiveworksheetHack(jsonlang) {
     let element, incr = 0, select = 0, tick = 0, drag = null, text = 0, choose = 0, ans = null, joins = 0, join = null, x1, y1, nulos = 0;
     function random(a) { return Math.floor(Math.random() * a) + 1 }
     let lg = navigator.language || navigator.userLanguage; 
-    let json = jsonlang.messages.filter(d => (lg.includes(d.locale)))[0]
+    let json = jsonlang.messages.filter(d => (lg.includes(d.locale)))[0] 
     if(!json) {json = jsonlang.messages.filter(d => (d.locale == 'vn'))[0]};
     if(!document.URL.startsWith("https://www.liveworksheets.com") && !document.URL.startsWith("https://es.liveworksheets.com")) { return confirm(json.domain)?(window.open("https://www.liveworksheets.com/", "liveworksheets")):false}
     if(document.querySelectorAll('#elsvgdefinitivo')[0] == undefined) return alert(json.noSheet);
