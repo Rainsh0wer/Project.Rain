@@ -1,0 +1,18 @@
+{   
+    "default": "vn",
+    "messages": [
+        {
+            "locale": "vn",
+            "success": "Đáp-án",
+            "error": "Chưa-giải-được",
+            "free": " ",
+            "completed": "Đã hoàn thành 100%",
+            "none": "Còn <number> câu chưa điền.",
+            "time": "Loading .... 2s",
+            "domain": "Chỉ chạy được trên liveworksheet",
+            "noSheet": "  ",
+            "finished": "Đã hoàn thành trước đó rồi",
+            "dev": " "
+        }
+    ]
+}
