@@ -8,7 +8,7 @@ function SimpleLiveworksheetHack(jsonlang) {
     if(document.querySelectorAll('#elsvgdefinitivo')[0] == undefined) return alert(json.noSheet);
     if(document.querySelector("#capafinish").ariaChecked) return alert(json.finished);
     let idArray = Array.from(contenidorellenado);
-    if(idArray.length===0) return console.log("%c"+json.time, 'color: yellow; font-size: 12px');
+    if(idArray.length===0) return console.log("%c"+json.time, 'color: yellow; font-size: 12px'); 
     const CheckAnswers = function(arr, delay) {
         if (incr < arr.length) {
             setTimeout( () => {
