@@ -1,0 +1,18 @@
+{   
+    "default": "en",
+    "messages": [
+        {
+            "locale": "en",
+            "success": "Resolved",
+            "error": "Unsolved",
+            "free": "Free response",
+            "completed": "The sheet was completed automatically",
+            "none": "but there are <number> unanswered boxes.",
+            "time": "Answers haven't been loaded yet. She waits 2 seconds and tries again.",
+            "domain": "You can only run this script on a LiveWorksheets sheet, do you want to be redirected to LiveWorksheets?",
+            "noSheet": "Only you can run this script on a sheet to fill",
+            "finished": "The sheet is already complete",
+            "dev": " "
+        }
+    ]
+}
