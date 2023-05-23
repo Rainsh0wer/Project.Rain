@@ -1,0 +1,18 @@
+{   
+    "default": "vn",
+    "messages": [
+        {
+            "locale": "vn",
+            "success": "Hoàn thành",
+            "error": "Lỗi",
+            "free": "Nothing :3",
+            "completed": "Hoàn thành điền",
+            "none": "Có <number> boxes chưa điền.",
+            "time": "Lỗi #@$%",
+            "domain": "Chỉ chạy trên liveworksheet!",
+            "noSheet": "Lỗi #^@@1",
+            "finished": "Hoàn toàn xong việc điền",
+            "dev": "Thanks you :3"
+        }
+    ]
+}
