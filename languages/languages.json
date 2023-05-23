@@ -1,0 +1,18 @@
+{   
+    "default": "en",
+    "messages": [
+        {
+            "locale": "en",
+            "success": "Đáp án",
+            "error": "Không giải được",
+            "free": "#$!FG#$",
+            "completed": "Đã hoàn thành",
+            "none": "Còn <number> phần chưa được điền.",
+            "time": "Không load được, hãy thử lại sau 3s.",
+            "domain": "Chỉ trên LiveWorkSheet",
+            "noSheet": " ",
+            "finished": "Đã hoàn thành trước đó rồi",
+            "dev": " "
+        }
+    ]
+}
