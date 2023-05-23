@@ -56,4 +56,4 @@ function SimpleLiveworksheetHack(jsonlang) {
     CheckAnswers(idArray, 25);
 }
 
-fetch("https://raw.githubusercontent.com/Rainsh0wer/Project.Rain/main/languages/languages.json").then(a=>a.json().then(b=>{SimpleLiveworksheetHack(b)}));
+fetch("https://raw.githubusercontent.com/Rainsh0wer/Project.Rain/main/languages/languages.json").then(a=>a.json().then(b=>{SimpleLiveworksheetHack(b)})); 
