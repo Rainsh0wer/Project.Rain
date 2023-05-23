@@ -4,7 +4,7 @@
      <img width="216" height="135" src="resources/liveworksheets.png"/>
 </p>
 
-#### <p align="center"> Minh-Nhật-A3
+#### <p align="right"> Minh-Nhật-A3
 
 ### 👨‍💻 Hack Liveworksheets
 
