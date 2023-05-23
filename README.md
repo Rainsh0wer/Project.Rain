@@ -1,4 +1,4 @@
-# Dành cho ngôn ngữ Tiếng Việt
+# 1. Dành cho ngôn ngữ Tiếng Việt
 
 <p align="center">
      <img width="216" height="135" src="resources/liveworksheets.png"/>
@@ -9,10 +9,8 @@
 ### 👨‍💻 Hack Liveworksheets
 
 **Sử dụng F12** hoặc **Ctrl+Shift+J** để mở phần bảng điều khiển.
-
-### 💻 Hack YourHomeWork
-
-- [Project.Storm](https://github.com/Rainsh0wer/Project.Storm)
+     
+*<p align="right"> [Hack YourHomeWork](https://github.com/Rainsh0wer/Project.Storm)*
 
 **Sử dụng F12** hoặc **Ctrl+Shift+J** để mở phần bảng điều khiển.
 ----
