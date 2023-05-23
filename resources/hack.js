@@ -12,10 +12,10 @@ function SimpleLiveworksheetHack(jsonlang) {
     const CheckAnswers = function(arr, delay) {
         if (incr < arr.length) {
             setTimeout( () => {
-            if(arr[incr][0].includes('select:')) {
+            if(arr[incr][0].includes('chọn ')) {
                 element = document.querySelectorAll('[id^="selectablediv"]')[select];
                 arr[incr][0].includes('yes')?element.click():{};
-                select++; console.log("%c"+incr+"."+json.success+" => "+arr[incr][0], 'background: #cfe2f3; color: white; font-size: 12px') 
+                select++; console.log("%c"+incr+"."+json.success+" => "+arr[incr][0], 'background: #cfe2f3; color: black; font-size: 12px') 
             } else if(arr[incr][0].includes('tick:')) {
                 element = document.querySelectorAll('[id^="tickbox"]')[tick];
                 arr[incr][0].includes('yes')?element.click():{};
@@ -42,7 +42,7 @@ function SimpleLiveworksheetHack(jsonlang) {
             } else if(typeof arr[incr][0] === "string") {
                 element = document.querySelectorAll('[id^="textbox"]')[text];
                 element.textContent = arr[incr][0];
-                text++; console.log("%c"+incr+"."+json.success+" => "+arr[incr][0], 'background: #cfe2f3; color: white; font-size: 12px') 
+                text++; console.log("%c"+incr+"."+json.success+" => "+arr[incr][0], 'background: #cfe2f3; color: black; font-size: 12px') 
             } else console.log("%c"+incr+"."+json.error+" => "+arr[incr][0], 'background: #5e0000; color: white; font-size: 12px') 
             incr++;
             CheckAnswers(arr, delay);
